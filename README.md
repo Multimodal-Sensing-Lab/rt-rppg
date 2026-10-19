@@ -171,7 +171,7 @@ The measurements of the live evaluation reported in the paper (Section 5.3.5, Ta
 
 ## Facial landmark model
 
-The facial landmark model `models/shape_predictor_68_face_landmarks_GTX.dat.bz2` (ERT-GTX) was trained by the authors, as described in C. Álvarez Casado and M. Bordallo López, "Real-time face alignment: evaluation methods, training strategies and implementation optimization", *Journal of Real-Time Image Processing*, 2021. Its training data include the iBUG 300-W dataset, whose license excludes commercial use, so this model cannot be used in commercial products. It can be replaced by any other 68-point model in the dlib shape predictor format, for example one trained on data that allow commercial use: the file is loaded in `src/process.cpp` (`dlib::deserialize`).
+The facial landmark model `models/shape_predictor_68_face_landmarks_GTX.dat.bz2` (ERT-GTX) was trained by the authors, as described in C. Álvarez Casado and M. Bordallo López, "Real-time face alignment: evaluation methods, training strategies and implementation optimization", *Journal of Real-Time Image Processing*, 2021. Its training data include the iBUG 300-W dataset, whose license excludes commercial use, so this model cannot be used in commercial products. It can be replaced by any other 68-point model in the dlib shape predictor format, for example one trained on data that allow commercial use: the file is loaded in `src/process.cpp` (`dlib::deserialize`). The sources, references and license notes of the two models (YuNet and ERT-GTX) are in [`models/README.md`](models/README.md).
 
 ## Notes
 
