@@ -1,0 +1,26 @@
+Run session2 (2026-10-19 15:18:33 +0300), AMD Ryzen 7 3700X 8-Core Processor, Ubuntu 24.04.5 LTS, RT_RPPG_EXPOSURE=330 RT_RPPG_GAIN=48 RT_RPPG_NETWORK=1
+
+idle (600 s)
+  Frames: 31.25/s processed, 29.84/s new camera frames (4.5% repeated); face 100%, stable 100%
+  Camera: 30.01 frames/s, interval ms: mean 33.32, SD 1.87, max 36.1; gaps 0; never processed 0.6%
+  Loop interval ms: mean 32.00, SD 0.67, p99 32.9, max 53.4; > 50 ms: 0.01%
+  Loop frame      ms: mean 0.32, median 0.3, p95 0.4, p99 0.5, max 3.4
+  Loop processing ms: mean 7.65, median 6.8, p95 9.8, p99 10.7, max 17.4
+  Loop gui        ms: mean 5.33, median 5.2, p95 5.9, p99 7.0, max 10.3
+  Loop network    ms: mean 0.00, median 0.0, p95 0.0, p99 0.0, max 0.0
+  Loop total      ms: mean 13.30, median 12.5, p95 15.6, p99 17.1, max 25.6
+  Latency frame read -> loop start             ms: median 15.6, p95 29.7, p99 31.6, max 32.8
+  Latency camera driver -> processed           ms: median 61.1, p95 76.1, p99 79.2, max 87.3
+  Latency camera driver -> GUI image           ms: median 66.3, p95 81.5, p99 84.5, max 93.8
+  Latency camera driver -> values and JPEG ready ms: median 66.3, p95 81.5, p99 84.5, max 93.8
+  HR median (stable frames): 63.9 bpm
+  CPU % of one core: mean 113.9, p95 121.0, max 127.0 (main 53.4, camera 14.0, network 0.0, workers 46.4, other 1.0); system 12.7% of all cores
+  Memory (RSS) MB: mean 259.8, max 260.3; CPU 3655 MHz; max temperature 52 C; script CPU 0.3%; GPU 29%
+  Oximeter: 600 paired values; HR MAE 3.1 bpm, bias +0.6, SD 6.7, r 0.23 (app 53-124, oximeter 58-77 bpm)
+            SpO2 MAE 1.0 %, bias -0.0 (app 91.7-98.7, oximeter 95-98 %)
+
+All phases (600 s): 31.25 frames/s processed, 29.84/s new camera frames; per minute: min 31.25, max 31.25
+
+All phases, oximeter: 600 paired values; HR MAE 3.1 bpm, bias +0.6, SD 6.7, r 0.23; SpO2 MAE 1.0 %, bias -0.0
+
+Exit code 0

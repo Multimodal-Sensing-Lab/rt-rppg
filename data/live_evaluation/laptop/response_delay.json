@@ -1,0 +1,161 @@
+{
+ "session1": {
+  "seconds": 1319,
+  "valid_pct": 100.0,
+  "beats": 1549,
+  "beats_kept_pct": 99.807,
+  "hr_app_delay_s": 6,
+  "hr_app_r": 0.482,
+  "hr_oximeter_delay_s": 7,
+  "hr_oximeter_r": 0.608,
+  "hr_app_vs_oximeter_delay_s": -2,
+  "hr_app_vs_oximeter_r": 0.338,
+  "spo2_app_vs_oximeter_delay_s": -10,
+  "spo2_app_vs_oximeter_r": 0.107,
+  "sd_beat_to_beat_bpm": 3.025,
+  "sd_app_bpm": 4.692,
+  "sd_oximeter_bpm": 2.169,
+  "increases": {
+   "columns": [
+    "second",
+    "beat_to_beat_rise",
+    "app_rise",
+    "oximeter_rise"
+   ],
+   "events": [
+    [
+     188,
+     9.85,
+     13.8,
+     0.0
+    ],
+    [
+     283,
+     8.49,
+     66.1,
+     7.0
+    ],
+    [
+     305,
+     10.07,
+     13.3,
+     12.0
+    ],
+    [
+     638,
+     8.01,
+     7.5,
+     6.0
+    ],
+    [
+     1001,
+     9.56,
+     9.4,
+     2.0
+    ]
+   ]
+  }
+ },
+ "session2": {
+  "seconds": 599,
+  "valid_pct": 100.0,
+  "beats": 754,
+  "beats_kept_pct": 98.95,
+  "hr_app_delay_s": 6,
+  "hr_app_r": 0.862,
+  "hr_oximeter_delay_s": 6,
+  "hr_oximeter_r": 0.516,
+  "hr_app_vs_oximeter_delay_s": -1,
+  "hr_app_vs_oximeter_r": 0.599,
+  "spo2_app_vs_oximeter_delay_s": -15,
+  "spo2_app_vs_oximeter_r": 0.232,
+  "sd_beat_to_beat_bpm": 3.976,
+  "sd_app_bpm": 3.151,
+  "sd_oximeter_bpm": 2.209,
+  "increases": {
+   "columns": [
+    "second",
+    "beat_to_beat_rise",
+    "app_rise",
+    "oximeter_rise"
+   ],
+   "events": [
+    [
+     59,
+     13.42,
+     16.3,
+     15.0
+    ],
+    [
+     413,
+     14.93,
+     16.3,
+     1.0
+    ],
+    [
+     463,
+     8.3,
+     6.3,
+     10.0
+    ],
+    [
+     573,
+     13.15,
+     13.8,
+     9.0
+    ]
+   ]
+  }
+ },
+ "session3": {
+  "seconds": 599,
+  "valid_pct": 100.0,
+  "beats": 728,
+  "beats_kept_pct": 99.318,
+  "hr_app_delay_s": 6,
+  "hr_app_r": 0.884,
+  "hr_oximeter_delay_s": 6,
+  "hr_oximeter_r": 0.497,
+  "hr_app_vs_oximeter_delay_s": 0,
+  "hr_app_vs_oximeter_r": 0.549,
+  "spo2_app_vs_oximeter_delay_s": 8,
+  "spo2_app_vs_oximeter_r": 0.273,
+  "sd_beat_to_beat_bpm": 3.654,
+  "sd_app_bpm": 3.058,
+  "sd_oximeter_bpm": 2.365,
+  "increases": {
+   "columns": [
+    "second",
+    "beat_to_beat_rise",
+    "app_rise",
+    "oximeter_rise"
+   ],
+   "events": [
+    [
+     134,
+     10.98,
+     8.2,
+     8.0
+    ],
+    [
+     200,
+     10.42,
+     10.0,
+     -8.5
+    ],
+    [
+     554,
+     10.37,
+     6.2,
+     4.0
+    ],
+    [
+     576,
+     12.47,
+     13.8,
+     4.0
+    ]
+   ]
+  }
+ }
+}

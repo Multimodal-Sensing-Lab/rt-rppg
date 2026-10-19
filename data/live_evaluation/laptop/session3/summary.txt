@@ -1,0 +1,26 @@
+Run session3 (2026-10-19 13:41:27 +0300), Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, Ubuntu 18.04.6 LTS, RT_RPPG_EXPOSURE=330 RT_RPPG_GAIN=48 RT_RPPG_NETWORK=1
+
+idle (600 s)
+  Frames: 31.25/s processed, 29.58/s new camera frames (5.4% repeated); face 100%, stable 100%
+  Camera: 30.01 frames/s, interval ms: mean 33.32, SD 1.88, max 36.2; gaps 0; never processed 1.5%
+  Loop interval ms: mean 32.00, SD 0.53, p99 33.0, max 37.1; > 50 ms: 0.00%
+  Loop frame      ms: mean 0.52, median 0.5, p95 0.7, p99 0.9, max 5.0
+  Loop processing ms: mean 10.00, median 9.2, p95 13.3, p99 15.7, max 20.8
+  Loop gui        ms: mean 8.74, median 8.5, p95 10.3, p99 12.3, max 15.7
+  Loop network    ms: mean 0.00, median 0.0, p95 0.0, p99 0.0, max 0.0
+  Loop total      ms: mean 19.26, median 18.6, p95 23.2, p99 26.2, max 32.2
+  Latency frame read -> loop start             ms: median 15.2, p95 29.2, p99 31.4, max 32.7
+  Latency camera driver -> processed           ms: median 72.8, p95 88.4, p99 91.3, max 104.8
+  Latency camera driver -> GUI image           ms: median 81.7, p95 97.0, p99 99.9, max 117.5
+  Latency camera driver -> values and JPEG ready ms: median 81.7, p95 97.0, p99 99.9, max 117.5
+  HR median (stable frames): 69.0 bpm
+  CPU % of one core: mean 312.8, p95 324.0, max 335.0 (main 76.0, camera 43.8, network 0.0, workers 193.0, other 0.8); system 37.1% of all cores
+  Memory (RSS) MB: mean 180.3, max 183.9; CPU 3123 MHz; max temperature 82 C; script CPU 0.5%
+  Oximeter: 600 paired values; HR MAE 1.7 bpm, bias -0.0, SD 3.0, r 0.74 (app 61-83, oximeter 64-83 bpm)
+            SpO2 MAE 1.1 %, bias +0.5 (app 93.7-99.2, oximeter 94-98 %)
+
+All phases (600 s): 31.25 frames/s processed, 29.58/s new camera frames; per minute: min 31.25, max 31.25
+
+All phases, oximeter: 600 paired values; HR MAE 1.7 bpm, bias -0.0, SD 3.0, r 0.74; SpO2 MAE 1.1 %, bias +0.5
+
+Exit code 0

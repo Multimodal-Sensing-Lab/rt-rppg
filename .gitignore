@@ -1,0 +1,29 @@
+# Build folders
+build/
+build-*/
+cmake-build-*/
+
+# qmake and Qt Creator files
+Makefile
+*.o
+moc_*.cpp
+moc_predefs.h
+ui_*.h
+.qmake.stash
+*.pro.user*
+CMakeLists.txt.user
+
+# Decompressed landmark model (the repository keeps the .bz2)
+models/*.dat
+
+# qmake build in the source folder (rt-rppg.pro)
+/rt_rppg
+/.qmake.stash
+ui_*.h
+qrc_*.cpp
+models/shape_predictor_68_face_landmarks_gtx.dat
+
+# Live evaluation runs (tools/live_eval.py) and dataset runs (tools/run_datasets.py)
+live_runs/
+dataset_runs/
+__pycache__/

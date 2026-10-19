@@ -1,0 +1,122 @@
+Run session1 (2026-10-18 21:18:42 +0300), AMD Ryzen 7 3700X 8-Core Processor, Ubuntu 24.04.5 LTS, RT_RPPG_EXPOSURE=330 RT_RPPG_GAIN=128 RT_RPPG_NETWORK=1
+
+idle (600 s)
+  Frames: 31.24/s processed, 29.78/s new camera frames (4.7% repeated); face 100%, stable 100%
+  Camera: 30.01 frames/s, interval ms: mean 33.32, SD 1.87, max 36.1; gaps 0; never processed 0.8%
+  Loop interval ms: mean 32.01, SD 0.79, p99 32.9, max 101.3; > 50 ms: 0.01%
+  Loop frame      ms: mean 0.33, median 0.3, p95 0.5, p99 0.6, max 7.8
+  Loop processing ms: mean 7.70, median 6.9, p95 10.0, p99 11.1, max 25.0
+  Loop gui        ms: mean 5.37, median 5.3, p95 6.1, p99 7.2, max 15.8
+  Loop network    ms: mean 0.00, median 0.0, p95 0.0, p99 0.0, max 0.0
+  Loop total      ms: mean 13.41, median 12.7, p95 15.8, p99 17.7, max 33.6
+  Latency frame read -> loop start             ms: median 15.5, p95 30.6, p99 31.6, max 32.7
+  Latency camera driver -> processed           ms: median 62.3, p95 77.5, p99 80.4, max 93.6
+  Latency camera driver -> GUI image           ms: median 67.7, p95 82.9, p99 85.9, max 102.1
+  Latency camera driver -> values and JPEG ready ms: median 67.7, p95 82.9, p99 85.9, max 102.1
+  HR median (stable frames): 66.5 bpm
+  CPU % of one core: mean 116.3, p95 122.0, max 127.0 (main 54.5, camera 15.9, network 0.0, workers 45.8, other 1.0); system 13.7% of all cores
+  Memory (RSS) MB: mean 259.3, max 259.5; CPU 3746 MHz; max temperature 53 C; script CPU 0.3%; GPU 29%
+  Oximeter: 600 paired values; HR MAE 2.2 bpm, bias +0.0, SD 4.0, r 0.59 (app 43-93, oximeter 62-82 bpm)
+            SpO2 MAE 1.1 %, bias +0.9 (app 95.4-98.8, oximeter 95-99 %)
+
+api (180 s)
+  Frames: 31.25/s processed, 29.89/s new camera frames (4.4% repeated); face 100%, stable 100%
+  Camera: 30.01 frames/s, interval ms: mean 33.32, SD 1.87, max 36.0; gaps 0; never processed 0.4%
+  Loop interval ms: mean 32.00, SD 0.40, p99 32.8, max 33.5; > 50 ms: 0.00%
+  Loop frame      ms: mean 0.31, median 0.3, p95 0.4, p99 0.5, max 3.0
+  Loop processing ms: mean 7.61, median 6.8, p95 9.8, p99 10.7, max 16.9
+  Loop gui        ms: mean 5.30, median 5.2, p95 5.8, p99 7.0, max 8.9
+  Loop network    ms: mean 0.00, median 0.0, p95 0.0, p99 0.0, max 0.7
+  Loop total      ms: mean 13.23, median 12.5, p95 15.5, p99 16.9, max 25.2
+  Latency frame read -> loop start             ms: median 15.4, p95 28.8, p99 29.5, max 32.8
+  Latency camera driver -> processed           ms: median 60.6, p95 75.9, p99 79.3, max 84.0
+  Latency camera driver -> GUI image           ms: median 65.8, p95 81.2, p99 84.5, max 90.7
+  Latency camera driver -> values and JPEG ready ms: median 65.8, p95 81.2, p99 84.5, max 90.7
+  JPEG main : 0% of frames, 14.4 kB, encoding ms: median 0.71, p95 0.71, p99 0.71, max 0.71
+  HR median (stable frames): 67.7 bpm
+  CPU % of one core: mean 116.7, p95 122.0, max 125.0 (main 53.9, camera 15.8, network 0.1, workers 46.7, other 1.2); system 12.4% of all cores
+  Memory (RSS) MB: mean 259.5, max 259.5; CPU 3752 MHz; max temperature 52 C; script CPU 0.8%; GPU 30%
+  API: 1801 requests (10.0/s), 0 errors; latency ms: median 0.53, p95 0.67, p99 0.79, max 2.28; value age ms: median 16, max 38
+  Oximeter: 180 paired values; HR MAE 0.9 bpm, bias +0.3, SD 1.2, r 0.83 (app 63-73, oximeter 64-71 bpm)
+            SpO2 MAE 0.5 %, bias +0.1 (app 95.9-98.9, oximeter 97-98 %)
+
+stream1 (180 s)
+  Frames: 31.25/s processed, 29.71/s new camera frames (4.9% repeated); face 100%, stable 100%
+  Camera: 30.01 frames/s, interval ms: mean 33.32, SD 1.87, max 36.1; gaps 0; never processed 1.0%
+  Loop interval ms: mean 32.00, SD 0.64, p99 32.9, max 49.5; > 50 ms: 0.00%
+  Loop frame      ms: mean 0.33, median 0.3, p95 0.5, p99 0.5, max 3.8
+  Loop processing ms: mean 7.71, median 6.9, p95 10.0, p99 11.1, max 17.2
+  Loop gui        ms: mean 5.35, median 5.2, p95 6.0, p99 7.2, max 10.0
+  Loop network    ms: mean 0.64, median 0.6, p95 0.8, p99 0.9, max 1.1
+  Loop total      ms: mean 14.03, median 13.3, p95 16.5, p99 18.3, max 27.3
+  Latency frame read -> loop start             ms: median 15.5, p95 31.2, p99 31.8, max 32.6
+  Latency camera driver -> processed           ms: median 62.8, p95 78.0, p99 80.9, max 90.0
+  Latency camera driver -> GUI image           ms: median 68.1, p95 83.3, p99 86.7, max 98.4
+  Latency camera driver -> values and JPEG ready ms: median 68.7, p95 83.9, p99 87.3, max 99.1
+  JPEG main : 100% of frames, 14.2 kB, encoding ms: median 0.62, p95 0.76, p99 0.87, max 1.06
+  JPEG pulse: 0% of frames, 5.1 kB, encoding ms: median 0.26, p95 0.26, p99 0.26, max 0.26
+  HR median (stable frames): 67.7 bpm
+  CPU % of one core: mean 118.5, p95 125.0, max 130.0 (main 56.5, camera 15.8, network 0.3, workers 45.7, other 1.1); system 13.6% of all cores
+  Memory (RSS) MB: mean 259.6, max 259.7; CPU 3799 MHz; max temperature 53 C; script CPU 1.2%; GPU 31%
+  API: 1801 requests (10.0/s), 0 errors; latency ms: median 0.53, p95 0.68, p99 0.87, max 3.05; value age ms: median 17, max 48
+  Oximeter: 180 paired values; HR MAE 2.6 bpm, bias -1.7, SD 4.7, r 0.53 (app 56-86, oximeter 63-81 bpm)
+            SpO2 MAE 1.0 %, bias +0.6 (app 94.2-98.9, oximeter 96-98 %)
+  Streams: 1 clients, 31.2 images/s per client (min 31.2), 3.6 Mbit/s in total
+  Stream latency (capture -> received) ms: median 69.4, p95 85.2, p99 88.4, max 100.7
+  Stream delivery (JPEG ready -> received) ms: median 0.14, p95 0.20, p99 0.26, max 3.04
+
+stream4 (180 s)
+  Frames: 31.25/s processed, 29.99/s new camera frames (4.0% repeated); face 100%, stable 100%
+  Camera: 30.02 frames/s, interval ms: mean 33.32, SD 1.87, max 36.0; gaps 0; never processed 0.1%
+  Loop interval ms: mean 32.00, SD 0.68, p99 32.9, max 46.6; > 50 ms: 0.00%
+  Loop frame      ms: mean 0.32, median 0.3, p95 0.5, p99 0.5, max 3.8
+  Loop processing ms: mean 7.67, median 6.9, p95 9.9, p99 11.0, max 18.2
+  Loop gui        ms: mean 5.32, median 5.2, p95 6.0, p99 7.1, max 10.7
+  Loop network    ms: mean 0.86, median 0.9, p95 1.0, p99 1.1, max 4.3
+  Loop total      ms: mean 14.17, median 13.5, p95 16.5, p99 18.1, max 28.8
+  Latency frame read -> loop start             ms: median 15.2, p95 30.2, p99 30.9, max 32.1
+  Latency camera driver -> processed           ms: median 61.9, p95 77.3, p99 80.5, max 82.9
+  Latency camera driver -> GUI image           ms: median 67.3, p95 82.6, p99 85.7, max 89.8
+  Latency camera driver -> values and JPEG ready ms: median 68.1, p95 83.4, p99 86.6, max 90.6
+  JPEG main : 100% of frames, 15.0 kB, encoding ms: median 0.70, p95 0.79, p99 0.91, max 4.05
+  JPEG pulse: 100% of frames, 5.4 kB, encoding ms: median 0.17, p95 0.21, p99 0.25, max 0.42
+  HR median (stable frames): 67.7 bpm
+  CPU % of one core: mean 120.7, p95 126.0, max 132.0 (main 57.0, camera 15.9, network 0.7, workers 46.9, other 1.2); system 13.6% of all cores
+  Memory (RSS) MB: mean 259.7, max 259.7; CPU 3811 MHz; max temperature 53 C; script CPU 1.9%; GPU 27%
+  API: 1801 requests (10.0/s), 0 errors; latency ms: median 0.51, p95 0.68, p99 0.81, max 2.27; value age ms: median 15, max 36
+  Oximeter: 180 paired values; HR MAE 2.4 bpm, bias -0.5, SD 4.2, r 0.48 (app 53-78, oximeter 64-77 bpm)
+            SpO2 MAE 1.1 %, bias +0.4 (app 93.0-98.7, oximeter 96-98 %)
+  Streams: 4 clients, 31.3 images/s per client (min 31.3), 10.4 Mbit/s in total
+  Stream latency (capture -> received) ms: median 68.6, p95 84.6, p99 87.4, max 105.8
+  Stream delivery (JPEG ready -> received) ms: median 0.06, p95 0.19, p99 0.29, max 30.80
+
+stream8 (180 s)
+  Frames: 31.24/s processed, 29.80/s new camera frames (4.6% repeated); face 100%, stable 100%
+  Camera: 30.01 frames/s, interval ms: mean 33.32, SD 1.87, max 36.0; gaps 0; never processed 0.7%
+  Loop interval ms: mean 32.01, SD 0.83, p99 32.9, max 65.6; > 50 ms: 0.04%
+  Loop frame      ms: mean 0.32, median 0.3, p95 0.4, p99 0.5, max 2.3
+  Loop processing ms: mean 7.71, median 6.9, p95 9.9, p99 10.9, max 18.4
+  Loop gui        ms: mean 5.36, median 5.3, p95 6.1, p99 7.3, max 11.7
+  Loop network    ms: mean 0.88, median 0.9, p95 1.0, p99 1.2, max 3.2
+  Loop total      ms: mean 14.26, median 13.6, p95 16.7, p99 18.1, max 29.4
+  Latency frame read -> loop start             ms: median 15.4, p95 28.8, p99 29.6, max 32.6
+  Latency camera driver -> processed           ms: median 60.7, p95 76.1, p99 79.4, max 82.1
+  Latency camera driver -> GUI image           ms: median 66.1, p95 81.5, p99 84.8, max 89.1
+  Latency camera driver -> values and JPEG ready ms: median 66.9, p95 82.3, p99 85.6, max 90.1
+  JPEG main : 100% of frames, 16.0 kB, encoding ms: median 0.70, p95 0.82, p99 0.93, max 2.88
+  JPEG pulse: 100% of frames, 6.1 kB, encoding ms: median 0.18, p95 0.24, p99 0.29, max 0.57
+  HR median (stable frames): 69.0 bpm
+  CPU % of one core: mean 121.2, p95 127.0, max 132.0 (main 57.5, camera 16.0, network 1.2, workers 46.3, other 1.2); system 13.9% of all cores
+  Memory (RSS) MB: mean 259.9, max 259.9; CPU 3817 MHz; max temperature 53 C; script CPU 3.4%; GPU 26%
+  API: 1801 requests (10.0/s), 0 errors; latency ms: median 0.50, p95 0.68, p99 0.85, max 2.15; value age ms: median 16, max 35
+  Oximeter: 180 paired values; HR MAE 1.9 bpm, bias -0.2, SD 3.5, r 0.63 (app 62-89, oximeter 64-76 bpm)
+            SpO2 MAE 1.3 %, bias -0.3 (app 93.0-98.5, oximeter 96-98 %)
+  Streams: 8 clients, 31.2 images/s per client (min 31.2), 22.5 Mbit/s in total
+  Stream latency (capture -> received) ms: median 67.8, p95 83.7, p99 86.5, max 94.0
+  Stream delivery (JPEG ready -> received) ms: median 0.19, p95 0.40, p99 0.70, max 5.26
+
+All phases (1320 s): 31.25 frames/s processed, 29.82/s new camera frames; per minute: min 31.20, max 31.25
+
+All phases, oximeter: 1320 paired values; HR MAE 2.1 bpm, bias -0.3, SD 3.9, r 0.57; SpO2 MAE 1.1 %, bias +0.5
+
+Exit code 0

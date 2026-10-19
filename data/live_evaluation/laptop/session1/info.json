@@ -1,0 +1,94 @@
+{
+ "script_version": "2026-10-18",
+ "started": "2026-10-19 12:57:19 +0300",
+ "argv": [
+  "tools/live_eval.py",
+  "run",
+  "--out",
+  "laptop/session1",
+  "--env",
+  "RT_RPPG_EXPOSURE=330",
+  "--env",
+  "RT_RPPG_GAIN=48"
+ ],
+ "app": "rt_rppg (qmake build of this repository, rt-rppg.pro)",
+ "settings": {
+  "RT_RPPG_EXPOSURE": "330",
+  "RT_RPPG_GAIN": "48",
+  "RT_RPPG_TIMING": "<run folder>",
+  "RT_RPPG_NETWORK": "1"
+ },
+ "phases": [
+  {
+   "name": "idle",
+   "kind": "idle",
+   "seconds": 600.0,
+   "t_start": 9081938379,
+   "wall_start": "12:57:53",
+   "t_end": 9681942095
+  },
+  {
+   "name": "api",
+   "kind": "api",
+   "seconds": 180.0,
+   "t_start": 9681942302,
+   "wall_start": "13:07:53",
+   "t_end": 9861945771
+  },
+  {
+   "name": "stream1",
+   "kind": "stream1",
+   "seconds": 180.0,
+   "t_start": 9861946138,
+   "wall_start": "13:10:53",
+   "t_end": 10041951057
+  },
+  {
+   "name": "stream4",
+   "kind": "stream4",
+   "seconds": 180.0,
+   "t_start": 10041951688,
+   "wall_start": "13:13:53",
+   "t_end": 10221957500
+  },
+  {
+   "name": "stream8",
+   "kind": "stream8",
+   "seconds": 180.0,
+   "t_start": 10221958431,
+   "wall_start": "13:16:53",
+   "t_end": 10401969160
+  }
+ ],
+ "warmup_s": 30,
+ "api_hz": 10,
+ "system": {
+  "python": "3.6.9",
+  "platform": "Linux-5.4.0-150-generic-x86_64-with-Ubuntu-18.04-bionic",
+  "kernel": "5.4.0-150-generic",
+  "logical_cpus": 8,
+  "cpu_model": "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz",
+  "mem_total_kb": 16276188,
+  "os": "Ubuntu 18.04.6 LTS",
+  "cpu_governor": "powersave",
+  "no_turbo": "0",
+  "power_supply": {
+   "ADP1": "1",
+   "BAT1": "Unknown"
+  },
+  "display": ":1",
+  "session_type": "x11",
+  "app_libraries": "\tlinux-vdso.so.1 (0x00007fff00d05000)\n\tlibopencv_objdetect.so.405 => ~/Projects/External/opencv/opencv_4_5_5_basic/lib/libopencv_objdetect.so.405 (0x00007f04b1794000)\n\tlibopencv_imgproc.so.405 => ~/Projects/External/opencv/opencv_4_5_5_basic/lib/libopencv_imgproc.so.405 (0x00007f04afa07000)\n\tlibopencv_highgui.so.405 => ~/Projects/External/opencv/opencv_4_5_5_basic/lib/libopencv_highgui.so.405 (0x00007f04af7c9000)\n\tlibopencv_imgcodecs.so.405 => ~/Projects/External/opencv/opencv_4_5_5_basic/lib/libopencv_imgcodecs.so.405 (0x00007f04af306000)\n\tlibopencv_core.so.405 => ~/Projects/External/opencv/opencv_4_5_5_basic/lib/libopencv_core.so.405 (0x00007f04ae132000)\n\tlibopencv_videoio.so.405 => ~/Projects/External/opencv/opencv_4_5_5_basic/lib/libopencv_videoio.so.405 (0x00007f04ade97000)\n\tliblapack.so.3 => /usr/lib/x86_64-linux-gnu/liblapack.so.3 (0x00007f04ad611000)\n\tlibblas.so.3 => /usr/lib/x86_64-linux-gnu/libblas.so.3 (0x00007f04ad3b6000)\n\tlibQt5Widgets.so.5 => ~/Qt/5.13.0/gcc_64/lib/libQt5Widgets.so.5 (0x00007f04acb63000)\n\tlibQt5Gui.so.5 => ~/Qt/5.13.0/gcc_64/lib/libQt5Gui.so.5 (0x00007f04ac316000)\n\tlibQt5Core.so.5 => ~/Qt/5.13.0/gcc_64/lib/libQt5Core.so.5 (0x00007f04abb69000)\n\tlibpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007f04ab94a000)\n\tlibstdc++.so.6 => /usr/lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007f04ab5c1000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f04ab223000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f04ab00b000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f04aac1a000)\n\tlibopencv_dnn.so.405 => ~/Projects/External/opencv/opencv_4_3_1_basic/lib/libopencv_dnn.so.405 (0x00007f04aa512000)\n\tlibopencv_calib3d.so.405 => ~/Projects/External/opencv/opencv_4_3_1_basic/lib/libopencv_calib3d.so.405 (0x00007f04aa0eb000)\n\tlibgtk-x11-2.0.so.0 => /usr/lib/x86_64-linux-gnu/libgtk-x11-2.0.so.0 (0x00007f04a9aa9000)\n\tlibgdk-x11-2.0.so.0 => /usr/lib/x86_64-linux-gnu/libgdk-x11-2.0.so.0 (0x00007f04a97f4000)\n\tlibcairo.so.2 => /usr/lib/x86_64-linux-gnu/libcairo.so.2 (0x00007f04a94d7000)\n\tlibgdk_pixbuf-2.0.so.0 => /usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0 (0x00007f04a92b3000)\n\tlibgobject-2.0.so.0 => /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0 (0x00007f04a905f000)\n\tlibglib-2.0.so.0 => /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0 (0x00007f04a8d48000)\n\tlibwebp.so.6 => /usr/lib/x86_64-linux-gnu/libwebp.so.6 (0x00007f04a8adf000)\n\tlibtiff.so.5 => /usr/lib/x86_64-linux-gnu/libtiff.so.5 (0x00007f04a8867000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00007f04a864a000)\n\tlibdl.so.2 => /lib/x86_64-linux-gnu/libdl.so.2 (0x00007f04a8446000)\n\tlibrt.so.1 => /lib/x86_64-linux-gnu/librt.so.1 (0x00007f04a823e000)\n\tlibcblas.so.3 => /usr/lib/x86_64-linux-gnu/libcblas.so.3 (0x00007f04a801c000)\n\tlibdc1394.so.22 => /usr/lib/x86_64-linux-gnu/libdc1394.so.22 (0x00007f04a7da6000)\n\tlibgstbase-1.0.so.0 => /usr/lib/x86_64-linux-gnu/libgstbase-1.0.so.0 (0x00007f04a7b31000)\n\tlibgstreamer-1.0.so.0 => /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so.0 (0x00007f04a77f6000)\n\tlibgstapp-1.0.so.0 => /usr/lib/x86_64-linux-gnu/libgstapp-1.0.so.0 (0x00007f04a75e7000)\n\tlibgstriff-1.0.so.0 => /usr/lib/x86_64-linux-gnu/libgstriff-1.0.so.0 (0x00007f04a73d9000)\n\tlibgstpbutils-1.0.so.0 => /usr/lib/x86_64-linux-gnu/libgstpbutils-1.0.so.0 (0x00007f04a71a1000)\n\tlibgstaudio-1.0.so.0 => /usr/lib/x86_64-linux-gnu/libgstaudio-1.0.so.0 (0x00007f04a6f2c000)\n\tlibgstvideo-1.0.so.0 => /usr/lib/x86_64-linux-gnu/libgstvideo-1.0.so.0 (0x00007f04a6c93000)\n\tlibavcodec.so.57 => /usr/lib/x86_64-linux-gnu/libavcodec.so.57 (0x00007f04a5571000)\n\tlibavformat.so.57 => /usr/lib/x86_64-linux-gnu/libavformat.so.57 (0x00007f04a5116000)\n\tlibavutil.so.55 => /usr/lib/x86_64-linux-gnu/libavutil.so.55 (0x00007f04a4e89000)\n\tlibswscale.so.4 => /usr/lib/x86_64-linux-gnu/libswscale.so.4 (0x00007f04a4bfa000)\n\tlibopenblas.so.0 => /usr/lib/x86_64-linux-gnu/libopenblas.so.0 (0x00007f04a2954000)\n\tlibgfortran.so.4 => /usr/lib/x86_64-linux-gnu/libgfortran.so.4 (0x00007f04a2575000)\n\tlibGL.so.1 => /usr/lib/x86_64-linux-gnu/libGL.so.1 (0x00007f04a22e9000)\n\tlibicui18n.so.56 => ~/Qt/5.13.0/gcc_64/lib/libicui18n.so.56 (0x00007f04a1e50000)\n\tlibicuuc.so.56 => ~/Qt/5.13.0/gcc_64/lib/libicuuc.so.56 (0x00007f04a1a98000)\n\tlibicudata.so.56 => ~/Qt/5.13.0/gcc_64/lib/libicudata.so.56 (0x00007f04a00b5000)\n\tlibgthread-2.0.so.0 => /usr/lib/x86_64-linux-gnu/libgthread-2.0.so.0 (0x00007f049feb3000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007f04b1c9e000)\n\tlibopencv_features2d.so.405 => ~/Projects/External/opencv/opencv_4_3_1_basic/lib/libopencv_features2d.so.405 (0x00007f049fbda000)\n\tlibopencv_flann.so.405 => ~/Projects/External/opencv/opencv_4_3_1_basic/lib/libopencv_flann.so.405 (0x00007f049f969000)\n\tlibgmodule-2.0.so.0 => /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0 (0x00007f049f765000)\n\tlibpangocairo-1.0.so.0 => /usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0 (0x00007f049f558000)\n\tlibX11.so.6 => /usr/lib/x86_64-linux-gnu/libX11.so.6 (0x00007f049f220000)\n\tlibXfixes.so.3 => /usr/lib/x86_64-linux-gnu/libXfixes.so.3 (0x00007f049f01a000)\n\tlibatk-1.0.so.0 => /usr/lib/x86_64-linux-gnu/libatk-1.0.so.0 (0x00007f049edf4000)\n\tlibgio-2.0.so.0 => /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0 (0x00007f049ea55000)\n\tlibpangoft2-1.0.so.0 => /usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0 (0x00007f049e83f000)\n\tlibpango-1.0.so.0 => /usr/lib/x86_64-linux-gnu/libpango-1.0.so.0 (0x00007f049e5f2000)\n\tlibfontconfig.so.1 => /usr/lib/x86_64-linux-gnu/libfontconfig.so.1 (0x00007f049e3ad000)\n\tlibXrender.so.1 => /usr/lib/x86_64-linux-gnu/libXrender.so.1 (0x00007f049e1a3000)\n\tlibXinerama.so.1 => /usr/lib/x86_64-linux-gnu/libXinerama.so.1 (0x00007f049dfa0000)\n\tlibXi.so.6 => /usr/lib/x86_64-linux-gnu/libXi.so.6 (0x00007f049dd90000)\n\tlibXrandr.so.2 => /usr/lib/x86_64-linux-gnu/libXrandr.so.2 (0x00007f049db85000)\n\tlibXcursor.so.1 => /usr/lib/x86_64-linux-gnu/libXcursor.so.1 (0x00007f049d97b000)\n\tlibXcomposite.so.1 => /usr/lib/x86_64-linux-gnu/libXcomposite.so.1 (0x00007f049d778000)\n\tlibXdamage.so.1 => /usr/lib/x86_64-linux-gnu/libXdamage.so.1 (0x00007f049d575000)\n\tlibXext.so.6 => /usr/lib/x86_64-linux-gnu/libXext.so.6 (0x00007f049d363000)\n\tlibpixman-1.so.0 => /usr/lib/x86_64-linux-gnu/libpixman-1.so.0 (0x00007f049d0be000)\n\tlibfreetype.so.6 => /usr/lib/x86_64-linux-gnu/libfreetype.so.6 (0x00007f049ce0a000)\n\tlibpng16.so.16 => /usr/lib/x86_64-linux-gnu/libpng16.so.16 (0x00007f049cbd8000)\n\tlibxcb-shm.so.0 => /usr/lib/x86_64-linux-gnu/libxcb-shm.so.0 (0x00007f049c9d5000)\n\tlibxcb.so.1 => /usr/lib/x86_64-linux-gnu/libxcb.so.1 (0x00007f049c7ad000)\n\tlibxcb-render.so.0 => /usr/lib/x86_64-linux-gnu/libxcb-render.so.0 (0x00007f049c5a0000)\n\tlibffi.so.6 => /usr/lib/x86_64-linux-gnu/libffi.so.6 (0x00007f049c398000)\n\tlibpcre.so.3 => /lib/x86_64-linux-gnu/libpcre.so.3 (0x00007f049c127000)\n\tliblzma.so.5 => /lib/x86_64-linux-gnu/liblzma.so.5 (0x00007f049bf01000)\n\tlibjbig.so.0 => /usr/lib/x86_64-linux-gnu/libjbig.so.0 (0x00007f049bcf3000)\n\tlibjpeg.so.8 => /usr/lib/x86_64-linux-gnu/libjpeg.so.8 (0x00007f049ba8b000)\n\tlibatlas.so.3 => /usr/lib/x86_64-linux-gnu/libatlas.so.3 (0x00007f049b502000)\n\tlibraw1394.so.11 => /usr/lib/x86_64-linux-gnu/libraw1394.so.11 (0x00007f049b2f3000)\n\tlibusb-1.0.so.0 => /lib/x86_64-linux-gnu/libusb-1.0.so.0 (0x00007f049b0db000)\n\tlibgsttag-1.0.so.0 => /usr/lib/x86_64-linux-gnu/libgsttag-1.0.so.0 (0x00007f049aea0000)\n\tliborc-0.4.so.0 => /usr/lib/x86_64-linux-gnu/liborc-0.4.so.0 (0x00007f049ac24000)\n\tlibswresample.so.2 => /usr/lib/x86_64-linux-gnu/libswresample.so.2 (0x00007f049aa05000)\n\tlibcrystalhd.so.3 => /usr/lib/x86_64-linux-gnu/libcrystalhd.so.3 (0x00007f049a7ea000)\n\tlibva.so.2 => /usr/lib/x86_64-linux-gnu/libva.so.2 (0x00007f049a5c9000)\n\tlibzvbi.so.0 => /usr/lib/x86_64-linux-gnu/libzvbi.so.0 (0x00007f049a33e000)\n\tlibxvidcore.so.4 => /usr/lib/x86_64-linux-gnu/libxvidcore.so.4 (0x00007f049a02d000)\n\tlibx265.so.146 => /usr/lib/x86_64-linux-gnu/libx265.so.146 (0x00007f04993ac000)\n\tlibx264.so.152 => /usr/lib/x86_64-linux-gnu/libx264.so.152 (0x00007f0499007000)\n\tlibwebpmux.so.3 => /usr/lib/x86_64-linux-gnu/libwebpmux.so.3 (0x00007f0498dfd000)\n\tlibwavpack.so.1 => /usr/lib/x86_64-linux-gnu/libwavpack.so.1 (0x00007f0498bd3000)\n\tlibvpx.so.5 => /usr/lib/x86_64-linux-gnu/libvpx.so.5 (0x00007f0498787000)\n\tlibvorbisenc.so.2 => /usr/lib/x86_64-linux-gnu/libvorbisenc.so.2 (0x00007f04984de000)\n\tlibvorbis.so.0 => /usr/lib/x86_64-linux-gnu/libvorbis.so.0 (0x00007f04982b3000)\n\tlibtwolame.so.0 => /usr/lib/x86_64-linux-gnu/libtwolame.so.0 (0x00007f0498090000)\n\tlibtheoraenc.so.1 => /usr/lib/x86_64-linux-gnu/libtheoraenc.so.1 (0x00007f0497e51000)\n\tlibtheoradec.so.1 => /usr/lib/x86_64-linux-gnu/libtheoradec.so.1 (0x00007f0497c33000)\n\tlibspeex.so.1 => /usr/lib/x86_64-linux-gnu/libspeex.so.1 (0x00007f0497a19000)\n\tlibsnappy.so.1 => /usr/lib/x86_64-linux-gnu/libsnappy.so.1 (0x00007f0497811000)\n\tlibshine.so.3 => /usr/lib/x86_64-linux-gnu/libshine.so.3 (0x00007f0497606000)\n\tlibrsvg-2.so.2 => /usr/lib/x86_64-linux-gnu/librsvg-2.so.2 (0x00007f04973ce000)\n\tlibopus.so.0 => /usr/lib/x86_64-linux-gnu/libopus.so.0 (0x00007f0497184000)\n\tlibopenjp2.so.7 => /usr/lib/x86_64-linux-gnu/libopenjp2.so.7 (0x00007f0496f2d000)\n\tlibmp3lame.so.0 => /usr/lib/x86_64-linux-gnu/libmp3lame.so.0 (0x00007f0496cb6000)\n\tlibgsm.so.1 => /usr/lib/x86_64-linux-gnu/libgsm.so.1 (0x00007f0496aa9000)\n\tlibssh-gcrypt.so.4 => /usr/lib/x86_64-linux-gnu/libssh-gcrypt.so.4 (0x00007f0496835000)\n\tlibopenmpt.so.0 => /usr/lib/x86_64-linux-gnu/libopenmpt.so.0 (0x00007f049646d000)\n\tlibbluray.so.2 => /usr/lib/x86_64-linux-gnu/libbluray.so.2 (0x00007f049621d000)\n\tlibgnutls.so.30 => /usr/lib/x86_64-linux-gnu/libgnutls.so.30 (0x00007f0495eb7000)\n\tlibxml2.so.2 => /usr/lib/x86_64-linux-gnu/libxml2.so.2 (0x00007f0495af6000)\n\tlibgme.so.0 => /usr/lib/x86_64-linux-gnu/libgme.so.0 (0x00007f04958aa000)\n\tlibchromaprint.so.1 => /usr/lib/x86_64-linux-gnu/libchromaprint.so.1 (0x00007f0495697000)\n\tlibbz2.so.1.0 => /lib/x86_64-linux-gnu/libbz2.so.1.0 (0x00007f0495487000)\n\tlibdrm.so.2 => /usr/lib/x86_64-linux-gnu/libdrm.so.2 (0x00007f0495276000)\n\tlibvdpau.so.1 => /usr/lib/x86_64-linux-gnu/libvdpau.so.1 (0x00007f0495072000)\n\tlibva-x11.so.2 => /usr/lib/x86_64-linux-gnu/libva-x11.so.2 (0x00007f0494e6c000)\n\tlibva-drm.so.2 => /usr/lib/x86_64-linux-gnu/libva-drm.so.2 (0x00007f0494c69000)\n\tlibquadmath.so.0 => /usr/lib/x86_64-linux-gnu/libquadmath.so.0 (0x00007f0494a29000)\n\tlibGLX.so.0 => /usr/lib/x86_64-linux-gnu/libGLX.so.0 (0x00007f04947f8000)\n\tlibGLdispatch.so.0 => /usr/lib/x86_64-linux-gnu/libGLdispatch.so.0 (0x00007f0494542000)\n\tlibselinux.so.1 => /lib/x86_64-linux-gnu/libselinux.so.1 (0x00007f049431a000)\n\tlibresolv.so.2 => /lib/x86_64-linux-gnu/libresolv.so.2 (0x00007f0494100000)\n\tlibmount.so.1 => /lib/x86_64-linux-gnu/libmount.so.1 (0x00007f0493eac000)\n\tlibharfbuzz.so.0 => /usr/lib/x86_64-linux-gnu/libharfbuzz.so.0 (0x00007f0493c0e000)\n\tlibthai.so.0 => /usr/lib/x86_64-linux-gnu/libthai.so.0 (0x00007f0493a05000)\n\tlibexpat.so.1 => /lib/x86_64-linux-gnu/libexpat.so.1 (0x00007f04937d3000)\n\tlibXau.so.6 => /usr/lib/x86_64-linux-gnu/libXau.so.6 (0x00007f04935cf000)\n\tlibXdmcp.so.6 => /usr/lib/x86_64-linux-gnu/libXdmcp.so.6 (0x00007f04933c9000)\n\tlibudev.so.1 => /lib/x86_64-linux-gnu/libudev.so.1 (0x00007f04931ab000)\n\tlibsoxr.so.0 => /usr/lib/x86_64-linux-gnu/libsoxr.so.0 (0x00007f0492f48000)\n\tlibnuma.so.1 => /usr/lib/x86_64-linux-gnu/libnuma.so.1 (0x00007f0492d3d000)\n\tlibogg.so.0 => /usr/lib/x86_64-linux-gnu/libogg.so.0 (0x00007f0492b34000)\n\tlibcroco-0.6.so.3 => /usr/lib/x86_64-linux-gnu/libcroco-0.6.so.3 (0x00007f04928f9000)\n\tlibgcrypt.so.20 => /lib/x86_64-linux-gnu/libgcrypt.so.20 (0x00007f04925dd000)\n\tlibgssapi_krb5.so.2 => /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2 (0x00007f0492392000)\n\tlibmpg123.so.0 => /usr/lib/x86_64-linux-gnu/libmpg123.so.0 (0x00007f0492133000)\n\tlibvorbisfile.so.3 => /usr/lib/x86_64-linux-gnu/libvorbisfile.so.3 (0x00007f0491f2b000)\n\tlibp11-kit.so.0 => /usr/lib/x86_64-linux-gnu/libp11-kit.so.0 (0x00007f0491bfc000)\n\tlibidn2.so.0 => /usr/lib/x86_64-linux-gnu/libidn2.so.0 (0x00007f04919df000)\n\tlibunistring.so.2 => /usr/lib/x86_64-linux-gnu/libunistring.so.2 (0x00007f0491661000)\n\tlibtasn1.so.6 => /usr/lib/x86_64-linux-gnu/libtasn1.so.6 (0x00007f049144e000)\n\tlibnettle.so.6 => /usr/lib/x86_64-linux-gnu/libnettle.so.6 (0x00007f0491218000)\n\tlibhogweed.so.4 => /usr/lib/x86_64-linux-gnu/libhogweed.so.4 (0x00007f0490fe2000)\n\tlibgmp.so.10 => /usr/lib/x86_64-linux-gnu/libgmp.so.10 (0x00007f0490d61000)\n\tlibicuuc.so.60 => /usr/lib/x86_64-linux-gnu/libicuuc.so.60 (0x00007f04909a9000)\n\tlibblkid.so.1 => /lib/x86_64-linux-gnu/libblkid.so.1 (0x00007f049075c000)\n\tlibgraphite2.so.3 => /usr/lib/x86_64-linux-gnu/libgraphite2.so.3 (0x00007f049052f000)\n\tlibdatrie.so.1 => /usr/lib/x86_64-linux-gnu/libdatrie.so.1 (0x00007f0490328000)\n\tlibbsd.so.0 => /lib/x86_64-linux-gnu/libbsd.so.0 (0x00007f0490113000)\n\tlibgomp.so.1 => /usr/lib/x86_64-linux-gnu/libgomp.so.1 (0x00007f048fee4000)\n\tlibgpg-error.so.0 => /lib/x86_64-linux-gnu/libgpg-error.so.0 (0x00007f048fccf000)\n\tlibkrb5.so.3 => /usr/lib/x86_64-linux-gnu/libkrb5.so.3 (0x00007f048f9f9000)\n\tlibk5crypto.so.3 => /usr/lib/x86_64-linux-gnu/libk5crypto.so.3 (0x00007f048f7c7000)\n\tlibcom_err.so.2 => /lib/x86_64-linux-gnu/libcom_err.so.2 (0x00007f048f5c3000)\n\tlibkrb5support.so.0 => /usr/lib/x86_64-linux-gnu/libkrb5support.so.0 (0x00007f048f3b8000)\n\tlibicudata.so.60 => /usr/lib/x86_64-linux-gnu/libicudata.so.60 (0x00007f048d80f000)\n\tlibuuid.so.1 => /lib/x86_64-linux-gnu/libuuid.so.1 (0x00007f048d608000)\n\tlibkeyutils.so.1 => /lib/x86_64-linux-gnu/libkeyutils.so.1 (0x00007f048d404000)\n",
+  "nvidia_smi": "NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.\n\n"
+ },
+ "oximeter": "/dev/hidraw3",
+ "v4l2": "Driver Info (not using libv4l2):\n\tDriver name   : uvcvideo\n\tCard type     : Trust USB Camera: Trust USB Cam\n\tBus info      : usb-0000:00:14.0-3\n\tDriver version: 5.4.233\n\tCapabilities  : 0x84A00001\n\t\tVideo Capture\n\t\tMetadata Capture\n\t\tStreaming\n\t\tExtended Pix Format\n\t\tDevice Capabilities\n\tDevice Caps   : 0x04200001\n\t\tVideo Capture\n\t\tStreaming\n\t\tExtended Pix Format\nPriority: 2\nVideo input : 0 (Camera 1: ok)\nFormat Video Capture:\n\tWidth/Height      : 1280/720\n\tPixel Format      : 'MJPG'\n\tField             : None\n\tBytes per Line    : 0\n\tSize Image        : 1843200\n\tColorspace        : sRGB\n\tTransfer Function : Default (maps to sRGB)\n\tYCbCr/HSV Encoding: Default (maps to ITU-R 601)\n\tQuantization      : Default (maps to Full Range)\n\tFlags             : \nCrop Capability Video Capture:\n\tBounds      : Left 0, Top 0, Width 1280, Height 720\n\tDefault     : Left 0, Top 0, Width 1280, Height 720\n\tPixel Aspect: 1/1\nSelection: crop_default, Left 0, Top 0, Width 1280, Height 720\nSelection: crop_bounds, Left 0, Top 0, Width 1280, Height 720\nStreaming Parameters Video Capture:\n\tCapabilities     : timeperframe\n\tFrames per second: 30.000 (30/1)\n\tRead buffers     : 0\n                     brightness 0x00980900 (int)    : min=0 max=255 step=1 default=120 value=120\n                       contrast 0x00980901 (int)    : min=0 max=255 step=1 default=120 value=120\n                     saturation 0x00980902 (int)    : min=0 max=255 step=1 default=128 value=128\n                            hue 0x00980903 (int)    : min=0 max=255 step=1 default=128 value=128\n white_balance_temperature_auto 0x0098090c (bool)   : default=1 value=1\n                          gamma 0x00980910 (int)    : min=0 max=255 step=1 default=135 value=135\n                           gain 0x00980913 (int)    : min=0 max=255 step=1 default=0 value=48\n           power_line_frequency 0x00980918 (menu)   : min=0 max=2 default=1 value=1\n      white_balance_temperature 0x0098091a (int)    : min=2800 max=6500 step=1 default=4600 value=4600 flags=inactive\n                      sharpness 0x0098091b (int)    : min=0 max=255 step=1 default=128 value=128\n         backlight_compensation 0x0098091c (int)    : min=0 max=2 step=1 default=1 value=1\n                  exposure_auto 0x009a0901 (menu)   : min=0 max=3 default=3 value=1\n              exposure_absolute 0x009a0902 (int)    : min=3 max=2047 step=1 default=166 value=330\n",
+ "app_uses_nvidia_gpu": false,
+ "t_app_start": 9049110805,
+ "t_app_end": 10409138014,
+ "exit_code": 0,
+ "interrupted": false,
+ "errors": [],
+ "temperature_sensor": "x86_pkg_temp",
+ "released_note": "Run folder of tools/live_eval.py for the live evaluation of the paper (Section 5.3.5, Table 6), session 1 on the laptop. Local paths were removed."
+}

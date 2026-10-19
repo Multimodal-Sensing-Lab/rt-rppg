@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below, and keep the Required Notice lines of LICENSE in any copy of the software or of software derived from it."
+title: "rt-rppg: real-time remote photoplethysmography (rPPG) application"
+type: software
+authors:
+  - family-names: "Álvarez Casado"
+    given-names: "Constantino"
+    orcid: "https://orcid.org/0000-0002-3052-4759"
+    affiliation: "University of Oulu"
+  - family-names: "Bordallo López"
+    given-names: "Miguel"
+    orcid: "https://orcid.org/0000-0002-5707-9085"
+    affiliation: "University of Oulu"
+version: "1.0.0"
+license: PolyForm-Noncommercial-1.0.0
+repository-code: "https://github.com/Multimodal-Sensing-Lab/rt-rppg"
+abstract: "Real-time remote photoplethysmography (rPPG) application in C++: heart rate from the face in a webcam video stream, with a Qt user interface, a RESTful API and MJPEG video streams, and the tools and measurements of the live evaluation of the paper."
+keywords:
+  - remote photoplethysmography
+  - rPPG
+  - heart rate
+  - real-time
+  - computer vision
+preferred-citation:
+  type: article
+  title: "Design, Implementation and Evaluation of a Real-Time Remote Photoplethysmography (rPPG) Acquisition System for Non-Invasive Vital Sign Monitoring"
+  authors:
+    - family-names: "Álvarez Casado"
+      given-names: "Constantino"
+      orcid: "https://orcid.org/0000-0002-3052-4759"
+    - family-names: "Sharifipour"
+      given-names: "Sasan"
+      orcid: "https://orcid.org/0000-0001-6670-4252"
+    - family-names: "Lage Cañellas"
+      given-names: "Manuel"
+      orcid: "https://orcid.org/0000-0002-4917-340X"
+    - family-names: "Nguyen"
+      given-names: "Nhi"
+      orcid: "https://orcid.org/0009-0002-2090-0746"
+    - family-names: "Nguyen"
+      given-names: "Le"
+      orcid: "https://orcid.org/0000-0001-7765-1483"
+    - family-names: "Bordallo López"
+      given-names: "Miguel"
+      orcid: "https://orcid.org/0000-0002-5707-9085"
+  journal: "arXiv preprint arXiv:2508.18787"
+  year: 2025
+  doi: "10.48550/arXiv.2508.18787"
+  url: "https://arxiv.org/abs/2508.18787"
